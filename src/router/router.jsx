@@ -8,20 +8,20 @@ import Gallery from '../pages/Gallery/Gallery';
 
 const Router = createBrowserRouter([
 	{
-		path: '/',
+		path: '/restaurant_emils',
 		element: <App />,
 		ErrorBoundary: ErrorBoundary,
 		children: [
 			{
-				path: '/',
+				path: '/restaurant_emils',
 				element: <Home />,
 			},
 			{
-				path: '/menu',
+				path: '/restaurant_emils/menu',
 				element: <Menu />,
 			},
 			{
-				path: '/gallery',
+				path: '/restaurant_emils/gallery',
 				element: <Gallery />,
 			},
 		],
