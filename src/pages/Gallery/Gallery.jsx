@@ -11,23 +11,23 @@ import fontStyles from '../../assets/styles/common/fonts.module.css';
 import colorPallete from '../../assets/theme/colorPallete.json';
 
 //images
-import restaurantImage1 from '../../assets/images/image_4.jpg';
-import restaurantImage2 from '../../assets/images/image_5.jpg';
-import restaurantImage3 from '../../assets/images/image_10.jpg';
-import restaurantImage4 from '../../assets/images/image_11.jpg';
-import restaurantImage5 from '../../assets/images/image_12.jpg';
-import restaurantImage6 from '../../assets/images/image_13.jpg';
-import restaurantImage7 from '../../assets/images/image_14.jpg';
-import restaurantImage8 from '../../assets/images/image_15.jpg';
-import restaurantImage9 from '../../assets/images/image_16.jpg';
-import restaurantImage10 from '../../assets/images/image_17.jpg';
+import restaurantImage1 from '../../assets/images/image_4.webp';
+import restaurantImage2 from '../../assets/images/image_5.webp';
+import restaurantImage3 from '../../assets/images/image_10.webp';
+import restaurantImage4 from '../../assets/images/image_11.webp';
+import restaurantImage5 from '../../assets/images/image_12.webp';
+import restaurantImage6 from '../../assets/images/image_13.webp';
+import restaurantImage7 from '../../assets/images/image_14.webp';
+import restaurantImage8 from '../../assets/images/image_15.webp';
+import restaurantImage9 from '../../assets/images/image_16.webp';
+import restaurantImage10 from '../../assets/images/image_17.webp';
 
-import foodImage1 from '../../assets/images/image_2.jpg';
-import foodImage2 from '../../assets/images/image_3.jpg';
-import foodImage3 from '../../assets/images/image_6.jpg';
-import foodImage4 from '../../assets/images/image_7.jpg';
-import foodImage5 from '../../assets/images/image_8.jpg';
-import foodImage6 from '../../assets/images/image_9.jpg';
+import foodImage1 from '../../assets/images/image_2.webp';
+import foodImage2 from '../../assets/images/image_3.webp';
+import foodImage3 from '../../assets/images/image_6.webp';
+import foodImage4 from '../../assets/images/image_7.webp';
+import foodImage5 from '../../assets/images/image_8.webp';
+import foodImage6 from '../../assets/images/image_9.webp';
 
 let restaurantImages = [
 	restaurantImage2,
