@@ -12,7 +12,7 @@
 			transparent 80%,
 			black 100%
 		),
-		url(../../images/landing_cover.png);
+		url(../../images/webp/landing_cover.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll;
@@ -39,7 +39,7 @@
 			transparent 80%,
 			black 100%
 		),
-		url(../../images/landing_section_2_cover.png);
+		url(../../images/webp/landing_section_2_cover.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -131,7 +131,7 @@
 			transparent 80%,
 			black 100%
 		),
-		url(../../images/section4_left_cover.png);
+		url(../../images/webp/section4_left_cover.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right;
