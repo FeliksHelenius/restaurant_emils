@@ -1,0 +1,256 @@
+.page-wrapper {
+}
+
+.landing {
+	display: flex;
+	width: 100svw;
+	height: 100svh;
+	background-image: linear-gradient(
+			to bottom,
+			black 0%,
+			transparent 20%,
+			transparent 80%,
+			black 100%
+		),
+		url(../../images/landing_cover.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align: start;
+}
+
+.landing-inner-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-shadow: 0px 0px 4px #000;
+}
+
+.section2 {
+	width: 100svw;
+	background-image: linear-gradient(
+			to bottom,
+			black 0%,
+			transparent 20%,
+			transparent 80%,
+			black 100%
+		),
+		url(../../images/landing_section_2_cover.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	scroll-snap-align: start;
+	padding: 5rem 0 5rem;
+}
+
+.section2-inner-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10rem;
+	width: 100%;
+	height: 100%;
+}
+
+.section3 {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5rem;
+	width: 100svw;
+	overflow: hidden;
+	padding: 5rem 0 15rem;
+}
+.section3-inner-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.5rem;
+}
+
+.offer-card-wrapper {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.section3::before,
+.section3::after {
+	content: '';
+	user-select: none;
+	position: absolute;
+	background: url('../../images/flower_type_1.svg') no-repeat;
+	background-size: contain;
+	aspect-ratio: 0.65/1;
+	width: 20rem;
+	z-index: -1;
+}
+
+.section3::before {
+	bottom: 0;
+	left: 0;
+	rotate: z 120deg;
+}
+
+.section3::after {
+	bottom: 0;
+	right: 0;
+	transform: rotate3d(1, 0, 0, 180deg) rotate3d(0, 0, 1, -60deg);
+}
+
+.section4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	overflow: hidden;
+	width: 100svw;
+	color: white;
+}
+
+.section4-left-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 5rem;
+	width: 40svw;
+	padding: 5rem 0 5rem;
+
+	background: linear-gradient(
+			to bottom,
+			black 0%,
+			transparent 20%,
+			transparent 80%,
+			black 100%
+		),
+		url(../../images/section4_left_cover.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	text-shadow: 0px 0px 4px #000;
+}
+.section4-right-wrapper {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 5rem 0 5rem;
+}
+.section4-right-wrapper::after {
+	content: '';
+	user-select: none;
+	position: absolute;
+	background: url('../../images/flower_type_2.svg') no-repeat;
+	background-size: contain;
+	aspect-ratio: 0.65/1;
+	width: 30rem;
+	z-index: -1;
+	right: 0;
+	bottom: 0;
+	transform: rotate3d(0, 0, 1, -60deg);
+}
+
+.location-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2.5rem;
+	width: 70%;
+}
+
+.location-iframe {
+	width: 100%;
+	height: 20rem;
+	border: none;
+	border-radius: 1rem;
+}
+
+.restaurant-hours-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2.5rem;
+	width: 70%;
+}
+
+@media (max-width: 1280px) {
+	.section4-left-wrapper {
+		width: 50svw;
+	}
+
+	.section4-right-wrapper::after {
+		width: 20rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.section4-right-wrapper {
+		display: none;
+	}
+	.section4-left-wrapper {
+		width: 100svw;
+		background-position: left;
+		padding: 10rem 0 5rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.section2-inner-wrapper {
+		gap: 5rem;
+	}
+
+	.section3 {
+		padding: 2.5rem 0 7.5rem;
+	}
+
+	.offer-card-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.section4-right-wrapper {
+		display: none;
+	}
+	.section4-left-wrapper {
+		width: 100svw;
+		background-position: left;
+		padding: 10rem 0 5rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.section3::before,
+	.section3::after {
+		display: none;
+	}
+}
+@media (max-width: 400px) {
+	.section2 {
+		min-height: 100svh;
+		background-attachment: scroll;
+	}
+
+	.section2-inner-wrapper {
+		gap: 2.5rem;
+		padding: 2.5rem 0 2.5rem;
+	}
+	.section3::before,
+	.section3::after {
+		width: 10rem;
+	}
+
+	.restaurant-hours-wrapper {
+		width: 100%;
+	}
+}

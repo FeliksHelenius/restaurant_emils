@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.header-1 {
+	font-family: 'Amaranth';
+	font-size: 32px;
+	font-weight: 400;
+}
+.header-2 {
+	font-family: 'Roboto';
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.subheader-1 {
+	font-family: 'Amaranth';
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.links-1 {
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: 400;
+	white-space: nowrap;
+}
+.links-1:hover {
+	cursor: pointer;
+}
+
+.paragraph-1 {
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.paragraph-2 {
+	font-family: 'Roboto';
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.paragraph-special {
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 400;
+}
+
+@media (max-width: 900px) {
+	.header-1 {
+		font-size: 20px;
+	}
+	.subheader-1 {
+		font-size: 16px;
+	}
+	.links-1 {
+		font-size: 16px;
+	}
+	.paragraph-special {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 600px) {
+	.header-1 {
+		font-size: 20px;
+	}
+	.subheader-1 {
+		font-size: 20px;
+	}
+	.links-1 {
+		font-size: 12px;
+	}
+	.header-specific-links {
+		text-decoration: none;
+		color: white;
+		font-family: 'Roboto';
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+
+@media (max-width: 400px) {
+	.paragraph-1 {
+		font-size: 14px;
+	}
+}

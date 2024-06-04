@@ -1,0 +1,27 @@
+{
+	"Monday": {
+		"start": "",
+		"end": "",
+		"closed": true
+	},
+	"Tuesday-Thursday": {
+		"start": "16:00",
+		"end": "23:00",
+		"closed": false
+	},
+	"Friday": {
+		"start": "16:00",
+		"end": "01:00",
+		"closed": false
+	},
+	"Saturday": {
+		"start": "16:00",
+		"end": "01:00",
+		"closed": false
+	},
+	"Sunday": {
+		"start": "16:00",
+		"end": "22:00",
+		"closed": false
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"header_links": [
+		{
+			"name": "Hem",
+			"path": "/"
+		},
+		{
+			"name": "Meny",
+			"path": "/menu"
+		},
+		{
+			"name": "Boka Bord",
+			"path": "https://widget.thefork.com/371b7938-64d2-44a2-b491-853f4f6f2064"
+		},
+		{
+			"name": "Event",
+			"path": "/events"
+		},
+		{
+			"name": "Galleri",
+			"path": "/gallery"
+		}
+	]
+}

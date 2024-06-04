@@ -1,0 +1,44 @@
+{
+	"footer_links": [
+		{
+			"name": "Hem",
+			"path": "/"
+		},
+		{
+			"name": "Meny",
+			"path": "/menu"
+		},
+		{
+			"name": "Boka Bord",
+			"path": "https://widget.thefork.com/371b7938-64d2-44a2-b491-853f4f6f2064"
+		},
+		{
+			"name": "Event",
+			"path": "/events"
+		},
+		{
+			"name": "Galleri",
+			"path": "/gallery"
+		}
+	],
+	"contact_information": [
+		{
+			"name": "tel",
+			"value": "+4608-880884"
+		},
+		{
+			"name": "email",
+			"value": "info@restaurantemils.se"
+		}
+	],
+	"social_media": [
+		{
+			"name": "Instagram",
+			"url": "https://www.instagram.com/emils_sthlm"
+		},
+		{
+			"name": "Tiktok",
+			"url": "https://www.tiktok.com/@emils_sthlm"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+.offer-card {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 20rem;
+	height: 20rem;
+	border-radius: 1rem;
+}
+
+@media (max-width: 900px) {
+	.offer-card {
+		width: 15rem;
+		height: 20rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.offer-card {
+		width: 11rem;
+		height: 20rem;
+	}
+}
