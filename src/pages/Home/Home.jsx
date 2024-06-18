@@ -29,7 +29,7 @@ import Image11 from '../../assets/images/image_16.webp';
 import BorderedContainer from '../../components/containers/borderedContainer';
 import Card from '../../components/containers/card';
 import BookButton from '../../components/buttons/BookButton';
-import coursesOffers from '../../assets/content/common/eventOffers.json';
+import coursesOffers from '../../assets/content/common/eventOffers';
 import ScrollIntoView, { ScrollInto } from 'react-scroll-into-view';
 
 //content
