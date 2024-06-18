@@ -211,7 +211,7 @@ const PartyMenu = ({ language }) => {
 					);
 				})
 			) : (
-				<div>help</div>
+				<div></div>
 			)}
 		</div>
 	);

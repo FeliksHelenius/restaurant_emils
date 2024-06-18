@@ -14,7 +14,7 @@ const EventOffers = {
 		'image-path': ThreeCourseOffer,
 	},
 	'offer-2': {
-		main: 'Dryckes paket',
+		main: 'Drink Package',
 		drink: false,
 		'amount-of-people': false,
 		description:
@@ -23,7 +23,7 @@ const EventOffers = {
 		'image-path': drinkOffer,
 	},
 	'offer-3': {
-		main: 'Grillbricka',
+		main: 'Grill Tray',
 		drink: ['vin', 'cava'],
 		'amount-of-people': '2 people',
 		description: 'Minimum of 2 people',
