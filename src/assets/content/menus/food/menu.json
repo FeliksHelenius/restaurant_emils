@@ -1,0 +1,240 @@
+{
+	"starters": {
+		"title": "Förrätter",
+		"items": [
+			{
+				"title": "Toast Skagen",
+				"description": "Klassisk skagen, toppad med forellrom, citronklyfta och dill",
+				"price": "148"
+			},
+			{
+				"title": "Kantarelltoast",
+				"description": "LevainBröd, kantareller, krämig sås, gräslök och balsamico",
+				"price": "148"
+			},
+			{
+				"title": "Scampi (stark)",
+				"description": "Vitlök- och sambalfrästa scampi och havsmusslor, serveras med aioli och bröd",
+				"price": "159"
+			},
+			{
+				"title": "Tonfisktartar",
+				"description": "Serveras med kapris, avokado, olivolja, forellrom och citron",
+				"price": "158"
+			},
+			{
+				"title": "Råbiff",
+				"description": "Egenmald oxfilé, dijonsenap, rödlök, rödbetor, kapris, äggula",
+				"price": "159"
+			},
+			{
+				"title": "Vitlöksbröd",
+				"description": "Serveras med kalamataoliver och tzatziki",
+				"price": "126"
+			},
+			{
+				"title": "Vegansk Bruchetta",
+				"description": "Fylld avokadohalva med bruchetta, toppas med basilika och balsamico",
+				"price": "136"
+			},
+			{
+				"title": "Burrata",
+				"description": "Cocktailtomater, husets sallad, oliver, vitlöksbröd och balsamico",
+				"price": "148"
+			}
+		]
+	},
+	"mains": {
+		"title": "Varmrätter",
+		"items": [
+			{
+				"title": "Grillad Välmarmorerad Entrecôte (Uruguay)",
+				"description": "Rödvinssås, bearnaisesås, sparris, sauterade grönsaker och pommes frites",
+				"price": "365"
+			},
+			{
+				"title": "Tomahawk",
+				"description": "Description: Förtidsmarinerad tomahawk på kockens vis, serverad med ugnsgratinerad champinjon och paprika fylld med parmesan och vitlökssmör, sparris, samt potatisklyftor. Till detta serveras cognac-pepparsås och rödvinssås.",
+				"price": "595"
+			},
+			{
+				"title": "Cognac Pepparstek",
+				"description": "Oxfilé, cognac/pepparsås, sparris, sauterade gränsaker och bakad potatis",
+				"price": "415"
+			},
+			{
+				"title": "Råbiff",
+				"description": "Egenmald oxfilé, dijonsenap, rödlök, rödbetor, kapris, äggula och pommes frites",
+				"price": "365"
+			},
+			{
+				"title": "Lamm Shank",
+				"description": "Långtillagad lammshanks med lök, helpeppar, rosmarin, timjan, smör, vitlök och chili. Serveras med rosmarinssås, tzatziki och bakad potatis. OBS: 30 minuters väntetid.",
+				"price": "295"
+			},
+			{
+				"title": "Grillade Fläskfilé Medaljonger",
+				"description": "Grönpepparsås, grillad ananas, sparris, sauterade grönsaker och rosmarinmarinerad ugnsbakad potatis",
+				"price": "296"
+			},
+			{
+				"title": "Lammrostbiff",
+				"description": "Ugnsgratinerad champinjon och paprika fylld med parmesan och vitlökssmör. Serveras med bakad potatis och sparris.",
+				"price": "295"
+			},
+			{
+				"title": "Hemlagade Köttbullar",
+				"description": "Gräddsås, rårörda lingon, inlagd gurka och duchesse mos",
+				"price": "192"
+			},
+			{
+				"title": "Wagyu Burgare",
+				"description": "Krispsallad, karamelliserad lök och cheddarost",
+				"price": "198"
+			},
+			{
+				"title": "Angus Burgare",
+				"desciption": "jalapeños, cheddarost, chilimajo, karamelliserad lök, bacon, jackpepparost, picklad gurka, serveras med pommes och lökringar",
+				"price": "198"
+			},
+			{
+				"title": "Halloumi Burgare",
+				"description": "Guacamole, karamelliserad lök, krispsallad, tomat, rostad lök, aioli, serveras med pommes och lökringar",
+				"price": "198"
+			},
+			{
+				"title": "Hummer",
+				"description": "Vitlök och parmesangratinerad hummer, serveras med vitlök och chilifrästa scampi, blåmusslor och vongole, toppat med grillad citron och dill.",
+				"price": "395"
+			},
+			{
+				"title": "Moules på Emil's vis",
+				"description": "Grönmusslor, grädde, vitt vin, vitlök, gräslök, aioli, vitlöksbröd och pommes frites",
+				"price": "325"
+			},
+			{
+				"title": "Grekisk Sallad",
+				"description": "Serveras på klassiskt vis",
+				"price": "198"
+			}
+		]
+	},
+	"desserts": [
+		{
+			"title": "Efterrätter",
+			"items": [
+				{
+					"title": "Chokladfondant",
+					"description": "Husets bärkompott och glasskula",
+					"price": "158"
+				},
+				{
+					"title": "Crème Brûlée",
+					"description": "Klassiskt vis",
+					"price": "148"
+				},
+				{
+					"title": "Vaniljglass",
+					"description": "Serveras med halloncoulis samt husets bär",
+					"price": "144"
+				},
+				{
+					"title": "Panna cotta",
+					"description": "Serveras med halloncoulis och husets bär",
+					"price": "144"
+				},
+				{
+					"title": "Hallon Sorbet",
+					"description": "Serveras med husets bär",
+					"price": "144"
+				}
+			]
+		},
+		{
+			"title": "Kaffedrink 169:- (5cl)",
+			"items": [
+				{
+					"title": "Irish Coffee",
+					"description": "Jameson, kaffe, farinsocker och grädde",
+					"price": false
+				},
+				{
+					"title": "Spanish Coffee",
+					"description": "Licor 43, kaffe och grädde",
+					"price": false
+				},
+				{
+					"title": "Kaffe D.O.M",
+					"description": "Bénédictine, kaffe och grädde",
+					"price": false
+				},
+				{
+					"title": "Kaffe Karlsson",
+					"description": "Bailey's, Cointreau, kaffe och grädde",
+					"price": false
+				}
+			]
+		},
+		{
+			"title": "Kranöl (40cl | 50cl)",
+			"items": [
+				{
+					"title": "Melleruds",
+					"description": false,
+					"price": ["68", "82"]
+				},
+				{
+					"title": "A Ship Full of IPA",
+					"description": false,
+					"price": ["78", "98"]
+				},
+				{
+					"title": "Krušovice",
+					"description": false,
+					"price": ["78", "98"]
+				},
+				{
+					"title": "Gamma Ray APA",
+					"description": false,
+					"price": ["86", "106"]
+				}
+			],
+			"quantity": ["40cl", "50cl"]
+		},
+		{
+			"title": "Flasköl",
+			"items": [
+				{
+					"title": "Heineken",
+					"description": "33cl",
+					"price": "65"
+				},
+				{
+					"title": "Paulaner Weissbier",
+					"description": "50cl",
+					"price": "92"
+				},
+				{
+					"title": "Zlatopramen",
+					"description": "50cl",
+					"price": "92"
+				},
+				{
+					"title": "Strongbow (cider)",
+					"description": "33cl",
+					"price": "68"
+				},
+				{
+					"title": "Daura Damm",
+					"description": "33cl",
+					"price": "68"
+				},
+				{
+					"title": "Ginger Joe",
+					"description": "33cl",
+					"price": "72"
+				}
+			]
+		}
+	]
+}

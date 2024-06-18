@@ -1,0 +1,17 @@
+{
+	"title": "Sällskapsmeny",
+	"starters": ["Halv Hummer", "Råbiff", "Kantarell Toast", "Vegansk Bruchetta"],
+	"mains": [
+		"Hel Hummer",
+		"Grillad Marmorerad Entrecôte från uruguay (250g)",
+		"Cognac-Pepparstek (Oxfilé)",
+		"Grillad Tonfisk"
+	],
+	"desserts": [
+		"Chokladfondant",
+		"Crème Brûlée",
+		"Vaniljglass",
+		"Hallon Sorbet"
+	],
+	"price": "595 kr / person"
+}

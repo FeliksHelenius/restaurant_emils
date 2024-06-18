@@ -1,0 +1,22 @@
+{
+	"title": "Group Menu",
+	"starters": [
+		"Half Lobster",
+		"Steak Tartare",
+		"Chanterelle Toast",
+		"Vegan Bruschetta"
+	],
+	"mains": [
+		"Whole Lobster",
+		"Grilled Marbled Ribeye from Uruguay (250g)",
+		"Cognac-Pepper Steak (Beef Tenderloin)",
+		"Grilled Tuna"
+	],
+	"desserts": [
+		"Chocolate Fondant",
+		"Crème Brûlée",
+		"Vanilla Ice Cream",
+		"Raspberry Sorbet"
+	],
+	"price": "595 kr / person"
+}

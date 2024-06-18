@@ -1,0 +1,281 @@
+{
+	"title": "Afterwork",
+	"Food Menu": {
+		"2-mini-burgare": {
+			"title": "2 Mini Burgare",
+			"ingredients": "Angus, Högrev, Cheddar, karameliserad lök, picklad gurka, ketchup",
+			"served-with": "Potatisklyftor och lökringar",
+			"price": "145 kr"
+		},
+		"charkbricka": {
+			"title": "Charkbricka",
+			"ingredients": "Utvalda delikatesser från Ost & Charkdisken med tillbehör (2 pers)",
+			"price": "295 kr"
+		},
+		"friterad-blackfisk-lokringar": {
+			"title": "Friterad Bläckfisk & Lökringar",
+			"ingredients": "Chili majonnäs",
+			"price": "125 kr"
+		},
+		"dirty-fries": {
+			"title": "Dirty Fries",
+			"ingredients": "Pommes frites, cheddar, bacon, jalapeños, rödlök, chili majonnäs, rostad lök",
+			"price": "95 kr"
+		},
+		"nachos": {
+			"title": "Nachos",
+			"ingredients": "Cheddar, jalapeños, rödlök, chili majonnäs, guacamole, rostad lök",
+			"price": "145 kr"
+		},
+		"marinerade-grona-oliver": {
+			"title": "Marinerade Gröna Oliver",
+			"ingredients": "Kockens vis",
+			"price": "75 kr"
+		}
+	},
+	"Drink Menu": {
+		"title": "Drink Menu",
+		"aperitifs": {
+			"title": "Fördrinkar",
+			"price": "169:-",
+			"items": [
+				{
+					"title": "Dry Martini",
+					"ingredients": "Gin, torr vermouth och grön oliv"
+				},
+				{
+					"title": "Aperol Spritz",
+					"ingredients": "Cava, aperol och soda vatten"
+				},
+				{
+					"title": "Negroni",
+					"ingredients": "Gin, campari och söt vermouth"
+				},
+				{
+					"title": "Old Fashioned",
+					"ingredients": "Irländsk whiskey, sockerlag och angostura bitters"
+				},
+				{
+					"title": "Hugo",
+					"ingredients": "Cava, fläderlikör och mynta"
+				},
+				{
+					"title": "Mocktail (98:-)",
+					"ingredients": "Alkoholfri drink. Välj mellan söt, sur eller fruktigt"
+				}
+			]
+		},
+		"wines": {
+			"title": "Vin",
+			"sections": [
+				{
+					"title": "Vita Viner",
+					"items": [
+						{
+							"title": "Chardonnay",
+							"origin": "Frankrike",
+							"grape": "Chardonnay 100%",
+							"price": "145:-/495:-"
+						},
+						{
+							"title": "Even & Odd Riesling",
+							"origin": "Tyskland",
+							"grape": "Riesling 100%",
+							"price": "155:-/495:-"
+						},
+						{
+							"title": "Trapiche",
+							"origin": "Argentina",
+							"grape": "Sauvignon Blanc 100%",
+							"price": "155:-/520:-"
+						},
+						{
+							"title": "Laroche Petit Chablis",
+							"origin": "Frankrike",
+							"grape": "Chablis 100%",
+							"price": "174:-/690:-"
+						}
+					]
+				},
+				{
+					"title": "Rosé",
+					"items": [
+						{
+							"title": "Bouchard Ainé & Fils",
+							"origin": "Frankrike",
+							"grape": "Pinot noir 100%",
+							"price": "145:-/495:-"
+						}
+					]
+				},
+				{
+					"title": "Röda Viner",
+					"items": [
+						{
+							"title": "Bouchard Ainé & Fils Pinot Noir",
+							"origin": "Frankrike",
+							"grape": "Pinot Noir 100%",
+							"price": "145:-/495:-"
+						},
+						{
+							"title": "Chateau Souverain Cabernet Sauvignon",
+							"origin": "USA",
+							"grape": "Cabernet Sauvignon 84%, Cabernet Franc 16%",
+							"price": "145:-/495:-"
+						},
+						{
+							"title": "Dark Horse Pinot Noir",
+							"origin": "USA",
+							"grape": "Pinot Noir 100%",
+							"price": "155:-/545:-"
+						},
+						{
+							"title": "Ortonese Sangiovese Merlot Puglia",
+							"origin": "Italien",
+							"grape": "Sangiovese, Merlot",
+							"price": "155:-/545:-"
+						},
+						{
+							"title": "Côtes Du Rhône Gentilhomme",
+							"origin": "Frankrike",
+							"grape": "Grenache 50%, Syrah 45%, Mourvèdre 5%",
+							"price": "165:-/595:-"
+						},
+						{
+							"title": "Dark Horse Zinfandel",
+							"origin": "USA",
+							"grape": "Zinfandel 98%, Petite Sirah 2%",
+							"price": "165:-/595:-"
+						},
+						{
+							"title": "Parigi Nebbiolo d'Alba DOC",
+							"origin": "Italien",
+							"grape": "Nebbiolo 100%",
+							"price": "174:-/695:-"
+						},
+						{
+							"title": "Clos De L'oratoire Des Papes Châteauneuf-Du-Pape Rouge",
+							"origin": "Frankrike",
+							"grape": "Grenache 80%, Syrah 8%, Mourvèdre 7%, Cinsault 5%",
+							"price": "995:-"
+						},
+						{
+							"title": "Orin Swift Palermo",
+							"origin": "USA",
+							"grape": "Cabernet Sauvignon, Merlot, Malbec",
+							"price": "995:-"
+						}
+					]
+				},
+				{
+					"title": "Mousserande / Champagne",
+					"items": [
+						{
+							"title": "Delapierre Brut Tradición Cava",
+							"origin": "Spanien",
+							"grape": "Macabeu 34%, Xarel-lo 33%, Parellada 33%",
+							"price": "135:-/345:-"
+						},
+						{
+							"title": "Champagne De Saint-Marceaux Brut",
+							"origin": "Frankrike",
+							"grape": "Pinot Noir 34%, Pinot Meunier 33%, Chardonnay 33%",
+							"price": "790:-"
+						},
+						{
+							"title": "Philipponnat Grand Blanc Extra Brut",
+							"origin": "Frankrike",
+							"grape": "Chardonnay 100%",
+							"price": "1290:-"
+						}
+					]
+				}
+			]
+		},
+		"cocktails": {
+			"title": "Cocktails",
+			"price": "159:-",
+			"items": [
+				{
+					"title": "Emil’s",
+					"ingredients": "Vodka, Galliano, limejuice, äggvita, sockerlag och passionsfrukt. Toppad med Cava"
+				},
+				{
+					"title": "Whiskey Sour",
+					"ingredients": "Bourbon, citronsaft, sockerlag, äggvita och angostura bitter"
+				},
+				{
+					"title": "Elderflower Blossom",
+					"ingredients": "Vodka, fläder, citron, sockerlag och äggvita"
+				},
+				{
+					"title": "Passions Mojito",
+					"ingredients": "Rom, passionsfrukt, mynta, citronsaft, sockerlag och passionsyrup"
+				},
+				{
+					"title": "Espresso Martini",
+					"ingredients": "Espresso, Vodka, Kahlúa och kaffebönor"
+				},
+				{
+					"title": "Pornstar Martini",
+					"ingredients": "Vaniljvodka, Passoa, limejuice, sockerlag och passionsfrukt. Toppad med Cava"
+				},
+				{
+					"title": "Bellini",
+					"ingredients": "Persikopuré och Prosecco"
+				},
+				{
+					"title": "Mocktail (98:-)",
+					"ingredients": "Alkoholfri cocktail. Välj mellan söt, sur eller fruktigt"
+				}
+			]
+		},
+		"gin_cocktails": {
+			"title": "Gin Cocktails",
+			"price": "169:- (5cl)",
+			"items": [
+				{
+					"title": "Gin & Tonic",
+					"ingredients": "På klassiskt vis"
+				},
+				{
+					"title": "Hendrick’s",
+					"ingredients": "Gurka, svartpeppar, Gin och Tonic"
+				},
+				{
+					"title": "Vårskriket",
+					"ingredients": "Fläder, citron, Gin och Tonic"
+				},
+				{
+					"title": "Sommardröm",
+					"ingredients": "Jordgubbar, mynta, Gin och Tonic"
+				},
+				{
+					"title": "Höstvepet",
+					"ingredients": "Blåbär, rosmarin, Gin och Tonic"
+				},
+				{
+					"title": "Vintermyset",
+					"ingredients": "Lingon, rosmarin, Gin och Tonic"
+				}
+			]
+		},
+		"shots": {
+			"title": "Shots",
+			"price": "100:- (5cl)",
+			"items": [
+				"Fisherman’s",
+				"Averna",
+				"Fernet Branca",
+				"Sambuca",
+				"Tequila",
+				"Jägermeister",
+				"Gammel Dansk",
+				"Sour Fish",
+				"Fireball",
+				"Sour Apple",
+				"Hot Shot (70:-)"
+			]
+		}
+	}
+}

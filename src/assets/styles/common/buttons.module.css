@@ -10,6 +10,7 @@
 	padding: 0.5rem 1rem 0.5rem;
 	overflow: hidden;
 	transition: 0.5s;
+	width: fit-content;
 }
 
 .outlined-text:hover {

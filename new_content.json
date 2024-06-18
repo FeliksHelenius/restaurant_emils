@@ -1,0 +1,101 @@
+{
+	"afterwork": {
+		"title": "Afterwork",
+		"Food Menu": {
+			"2-mini-burgare": {
+				"title": "2 Mini Burgare",
+				"ingredients": "Angus, Högrev, Cheddar, karameliserad lök, picklad gurka, ketchup",
+				"served-with": "Potatisklyftor och lökringar",
+				"price": "145 kr"
+			},
+			"charkbricka": {
+				"title": "Charkbricka",
+				"ingredients": "Utvalda delikatesser från Ost & Charkdisken med tillbehör (2 pers)",
+				"price": "295 kr"
+			},
+			"friterad-blackfisk-lokringar": {
+				"title": "Friterad Bläckfisk & Lökringar",
+				"ingredients": "Chili majonnäs",
+				"price": "125 kr"
+			},
+			"dirty-fries": {
+				"title": "Dirty Fries",
+				"ingredients": "Pommes frites, cheddar, bacon, jalapeños, rödlök, chili majonnäs, rostad lök",
+				"price": "95 kr"
+			},
+			"nachos": {
+				"title": "Nachos",
+				"ingredients": "Cheddar, jalapeños, rödlök, chili majonnäs, guacamole, rostad lök",
+				"price": "145 kr"
+			},
+			"marinerade-grona-oliver": {
+				"title": "Marinerade Gröna Oliver",
+				"ingredients": "Kockens vis",
+				"price": "75 kr"
+			}
+		},
+		"Drink Menu": {
+			"path": "....addlater"
+		}
+	},
+	"event-offers": {
+		"title": "Event Offers",
+		"offer-1": {
+			"main": ["Tomahawk stek", "Lamm shank"],
+			"drink": ["Vin", "Moausserande"],
+			"amount-of-people": "2 personer",
+			"description": false,
+			"price": "645 kr / person"
+		},
+		"offer-2": {
+			"main": "Hummer",
+			"drink": "Champagne",
+			"amount-of-people": "1 person",
+			"description": false,
+			"price": "605 kr / person"
+		},
+		"offer-3": {
+			"main": "Grillbricka",
+			"drink": ["vin", "cava"],
+			"amount-of-people": "2 personer",
+			"description": false,
+			"price": "545 kr / person"
+		},
+		"offer-4": {
+			"main": "Kombinera egen 3-rätters meny",
+			"drink": false,
+			"amount-of-people": false,
+			"description": "Välj en förrätt, en varmrätt och en dessert från vår meny",
+			"price": "595 kr / person"
+		},
+		"offer-5": {
+			"main": "Dryckes paket",
+			"drink": false,
+			"amount-of-people": false,
+			"description": "1 fordrink, 2 glas vin (vitt, rott, rose, cava), 1 valfri cocktail",
+			"price": "545 kr / person"
+		}
+	},
+	"group-menu": {
+		"title": "Group Menu",
+		"starters": [
+			"Halv Hummer",
+			"Råbiff",
+			"Kantarell Toast",
+			"Vegansk Bruchetta"
+		],
+		"mains": [
+			"Hel Hummer",
+			"Grillad Marmorerad Entrecôte från uruguay (250g)",
+			"Cognac-Pepparstek (Oxfilé)",
+			"Grillad Tonfisk"
+		],
+		"desserts": [
+			"Chokladfondant",
+			"Crème Brûlée",
+			"Vaniljglass",
+			"Hallon Sorbet"
+		],
+		"price": "595 kr / person"
+	}
+}

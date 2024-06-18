@@ -1,0 +1,65 @@
+.page-wrapper {
+	display: flex;
+	color: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 8rem 5rem 0;
+	overflow-x: hidden;
+}
+
+.text-wrapper {
+	width: 50%;
+	text-align: center;
+}
+
+.default-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 5rem;
+	margin-top: 5rem;
+}
+
+.selling-points-wrapper {
+	display: flex;
+	gap: 1rem;
+}
+
+.card-mobile {
+	display: none;
+}
+
+.menu-highlights-wrapper {
+	display: flex;
+	gap: 1rem;
+}
+
+@media (max-width: 768px) {
+	.selling-points-wrapper {
+		display: none;
+	}
+
+	.menu-highlights-wrapper {
+		display: none;
+	}
+
+	.card-mobile {
+		display: flex;
+		gap: 1rem;
+		width: 100svw;
+		height: 22rem;
+	}
+
+	.default-section {
+		margin-top: 2rem;
+		gap: 2rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.text-wrapper {
+		width: 80svw;
+	}
+}

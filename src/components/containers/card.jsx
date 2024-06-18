@@ -11,17 +11,21 @@ export default function Card(props) {
 	let extraStyle = props.style || {};
 	let text = props.text || ['exampletext'];
 	let image = props.image || defaultImage;
+	let hoverCard = props.hoverCard || false;
 
 	if (variant == 'primary')
 		return (
-			<PrimaryCard style={{ extraStyle }} text={text}>
+			<PrimaryCard style={{ extraStyle }} text={text} hoverCard={hoverCard}>
 				{props.children}
 			</PrimaryCard>
 		);
 
 	if (variant == 'offer')
 		return (
-			<OfferCard image={props.image} style={{ extraStyle }}>
+			<OfferCard
+				image={props.image}
+				style={{ extraStyle }}
+				hoverCard={hoverCard}>
 				{props.children}
 			</OfferCard>
 		);
@@ -56,9 +60,16 @@ function PrimaryCard(props) {
 }
 
 function OfferCard(props) {
+	let extraStyle = props.style.extraStyle || {};
+	let hoverCard = props.hoverCard || false;
+
 	return (
 		<div
-			className={cardStyles['offer-card']}
+			className={
+				cardStyles['offer-card'] +
+				' ' +
+				(hoverCard ? cardStyles['offer-card-hover'] : '')
+			}
 			style={{
 				background: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
 				url(${props.image})`,
@@ -66,7 +77,7 @@ function OfferCard(props) {
 				backgroundPosition: 'center',
 				backgroundRepeat: 'no-repeat',
 
-				...props.style,
+				...extraStyle,
 			}}>
 			{props.children}
 		</div>

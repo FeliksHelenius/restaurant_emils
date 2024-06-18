@@ -1,3 +1,28 @@
+.scroll-container {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+.scroll-container-inner-wrapper {
+	display: flex;
+	gap: 1rem;
+}
+
+.carousel-container {
+	display: flex;
+	width: 100svw;
+	height: 22rem;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.text-container {
+	width: 50%;
+	text-align: center;
+}
+
 .bordered-container {
 	display: flex;
 	width: 80%;
@@ -68,6 +93,12 @@
 	}
 	.image-grid-item-mobile img {
 		width: 25svw;
+	}
+}
+
+@media (max-width: 500px) {
+	.text-container {
+		width: 80%;
 	}
 }
 

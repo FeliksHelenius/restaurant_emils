@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { Fragment, useRef } from 'react';
+import { useState, useEffect } from 'react';
 //styles
 import styles from '../../assets/styles/landing/landing.module.css';
 import fontStyles from '../../assets/styles/common/fonts.module.css';
 import imageStyles from '../../assets/styles/common/images.module.css';
+import cardStyles from '../../assets/styles/common/cards.module.css';
+import buttonStyles from '../../assets/styles/common/buttons.module.css';
+import containerStyles from '../../assets/styles/common/containers.module.css';
 //colorpallete
 import colorPallete from '../../assets/theme/colorPallete.json';
 //images
@@ -25,25 +29,43 @@ import Image11 from '../../assets/images/image_16.webp';
 import BorderedContainer from '../../components/containers/borderedContainer';
 import Card from '../../components/containers/card';
 import BookButton from '../../components/buttons/BookButton';
-import {
-	CompanyOffer,
-	CoursesOffer,
-	DrinkOffer,
-} from '../../assets/content/home/offerCards';
+import coursesOffers from '../../assets/content/common/eventOffers.json';
+import ScrollIntoView, { ScrollInto } from 'react-scroll-into-view';
 
 //content
 import cardContent from '../../assets/content/home/cardContent';
 import restaurantHours from '../../assets/content/common/restaurantHours';
 import ImageGrid from '../../components/containers/imageGrid';
+import { Link } from 'react-router-dom';
 
 let Home = () => {
+	const handleClick = (e) => {
+		if (!e.composedPath().includes(activeCard.current)) {
+			setIsActiveOfferCard('none');
+		}
+	};
+
+	useEffect(() => {
+		document.body.addEventListener('click', handleClick);
+		if (activeCard.current) {
+			activeCard.current.scrollIntoView({
+				behavior: 'smooth',
+				block: 'center',
+			});
+		}
+		return () => document.body.removeEventListener('click', handleClick);
+	});
+
+	let [isActiveOfferCard, setIsActiveOfferCard] = useState('none');
+	let activeCard = useRef(null);
+
 	return (
 		<div className={styles['page-wrapper']}>
 			<div className={styles['landing']}>
 				<div className={styles['landing-inner-wrapper']}>
 					<Logo className={imageStyles['landing-logo']} />
 					<h1 className={fontStyles['header-1']} style={{ color: 'white' }}>
-						Steakhouse - CocktailBar - FestVåning
+						Steakhouse - Seafood - Event
 					</h1>
 				</div>
 			</div>
@@ -59,7 +81,7 @@ let Home = () => {
 							textShadow: '0px 0px 4px #000',
 						}}>
 						<p className={fontStyles['header-1']} style={{ color: '#fff' }}>
-							Välkomna
+							Welcome to <br /> Emil&apos;s Steakhouse - Seafood - Event
 						</p>
 						<br />
 						<p
@@ -70,20 +92,24 @@ let Home = () => {
 								gap: '0.5rem',
 								padding: '0 5rem 0',
 							}}>
-							<span>
-								Emils GastroBar & Restaurant erbjuder en varmt välkomnande plats
-								för små och stora sällskap.
+							<span style={{ width: '50svw' }}>
+								The perfect place for memorable events, birthday celebrations,
+								corporate events, kickoffs, staff parties, or afterwork in the
+								heart of the city&apos;s pulse.
 							</span>
 							<br />
-							<span>
-								En två våningars topprenoverad restaurang med 120 sittplatser.
+							<span style={{ width: '50svw' }}>
+								We offer everything from grilled dishes and seafood to small
+								plates, delicious cocktails, and a wide selection of wines.
 							</span>
 							<br />
-							<span>
-								Emils erbjuder både smårätter, mellanrätter och huvudrätter samt
-								goda cocktails, brett vinutbud och söndagsöppet.
+							<span style={{ width: '50svw' }}>
+								We create outstanding experiences for both small and large
+								groups and offer an elegant environment for every occasion.
+								Whether it&apos;s a bachelor party, bachelorette party, or
+								birthday celebration, we guarantee a unique and unforgettable
+								experience for all our guests.
 							</span>
-							<br />
 						</p>
 					</div>
 
@@ -114,13 +140,112 @@ let Home = () => {
 
 			<div className={styles['section3']}>
 				<p className={fontStyles['header-1']} style={{ color: 'white' }}>
-					Våra Special Erbjudanden
+					Today We Offer
 				</p>
 				<div className={styles['section3-inner-wrapper']}>
 					<div className={styles['offer-card-wrapper']}>
-						<CoursesOffer />
-						<DrinkOffer />
-						<CompanyOffer />
+						{Object.keys(coursesOffers).map((v) => {
+							let name = coursesOffers[v]['main'];
+							let drink = coursesOffers[v]['drink'];
+							let amountOfPeople = coursesOffers[v]['amount-of-people'];
+							let description = coursesOffers[v]['description'];
+							let price = coursesOffers[v]['price'];
+							let imagePath = coursesOffers[v]['image-path'];
+
+							return (
+								<div
+									key={v}
+									className={
+										cardStyles['offer-card'] +
+										' ' +
+										(isActiveOfferCard === v ? styles['active'] : '') +
+										(isActiveOfferCard !== 'none' && isActiveOfferCard !== v
+											? styles['inactive']
+											: '') +
+										' ' +
+										(isActiveOfferCard === v
+											? ''
+											: cardStyles['offer-card-hover'])
+									}
+									ref={isActiveOfferCard === v ? activeCard : null}
+									onClick={() => {
+										if (isActiveOfferCard === v) return;
+										setIsActiveOfferCard(v);
+									}}>
+									<img
+										title="course offer at restaurant emils"
+										src={imagePath}
+										alt="course offer at restaurant emils"
+										width={'100%'}
+										height={'100%'}
+										loading="lazy"
+										style={{
+											filter:
+												isActiveOfferCard === v
+													? 'brightness(0.2)'
+													: 'brightness(0.5)',
+										}}
+									/>
+									{/* active card */}
+									{isActiveOfferCard === v && (
+										<div
+											className={containerStyles['text-container']}
+											style={{
+												display: 'flex',
+												flexDirection: 'column',
+												height: '100%',
+												textAlign: 'center',
+												gap: '1rem',
+												marginTop: '5rem',
+												position: 'relative',
+											}}>
+											<span className={fontStyles['card-title-active']}>
+												{name}
+											</span>
+											<br />
+											<span className={fontStyles['card-description']}>
+												{description}
+											</span>
+											<br />
+											<span className={fontStyles['card-price']}>{price}</span>
+											<br />
+
+											{/* card's two buttons (close menu) + (see our menu) */}
+											<div
+												style={{
+													display: 'flex',
+													justifyContent: 'space-around',
+													position: 'absolute',
+													width: '100%',
+													bottom: '5rem',
+												}}>
+												<button
+													className={buttonStyles['outlined-text']}
+													style={{ color: '#fff' }}
+													onClick={() => {
+														setIsActiveOfferCard('none');
+													}}>
+													close menu
+												</button>
+												<button
+													className={buttonStyles['outlined-text']}
+													style={{ color: '#fff' }}>
+													<Link
+														to="/restaurant_emils/menu"
+														style={{ color: '#fff' }}>
+														see our menu
+													</Link>
+												</button>
+											</div>
+										</div>
+									)}
+									{/* inactive card */}
+									{isActiveOfferCard !== v && (
+										<span className={fontStyles['card-title']}>{name}</span>
+									)}
+								</div>
+							);
+						})}
 					</div>
 					<BookButton text={'boka nu'} href={'/boka-nu'} />
 				</div>

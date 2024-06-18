@@ -1,0 +1,235 @@
+{
+	"starters": {
+		"title": "Starters",
+		"items": [
+			{
+				"title": "Toast Skagen",
+				"description": "Classic Skagen, topped with trout roe, lemon wedge, and dill",
+				"price": "148"
+			},
+			{
+				"title": "Chanterelle Toast",
+				"description": "Levain bread, chanterelles, creamy sauce, chives, and balsamic",
+				"price": "148"
+			},
+			{
+				"title": "Scampi (spicy)",
+				"description": "Garlic and sambal sautéed scampi and sea mussels, served with aioli and bread",
+				"price": "159"
+			},
+			{
+				"title": "Tuna Tartare",
+				"description": "Served with capers, avocado, olive oil, trout roe, and lemon",
+				"price": "158"
+			},
+			{
+				"title": "Steak Tartare",
+				"description": "House-ground beef tenderloin, Dijon mustard, red onion, beets, capers, egg yolk",
+				"price": "159"
+			},
+			{
+				"title": "Garlic Bread",
+				"description": "Served with Kalamata olives and tzatziki",
+				"price": "126"
+			},
+			{
+				"title": "Vegan Bruschetta",
+				"description": "Stuffed avocado half with bruschetta, topped with basil and balsamic",
+				"price": "136"
+			},
+			{
+				"title": "Burrata",
+				"description": "Cherry tomatoes, house salad, olives, garlic bread, and balsamic",
+				"price": "148"
+			}
+		]
+	},
+	"mains": {
+		"title": "Main Courses",
+		"items": [
+			{
+				"title": "Grilled Well-Marbled Ribeye (Uruguay)",
+				"description": "Red wine sauce, Béarnaise sauce, asparagus, sautéed vegetables, and French fries",
+				"price": "365"
+			},
+			{
+				"title": "Tomahawk",
+				"description": "Pre-marinated Tomahawk steak cooked chef's style, served with oven-grilled mushroom and bell pepper filled with Parmesan and garlic butter, asparagus, and potato wedges. Accompanied by Cognac pepper sauce and red wine sauce.",
+				"price": "595"
+			},
+			{
+				"title": "Cognac Pepper Steak",
+				"description": "Beef tenderloin, Cognac/pepper sauce, asparagus, sautéed vegetables, and baked potato",
+				"price": "415"
+			},
+			{
+				"title": "Steak Tartare",
+				"description": "House-ground beef tenderloin, Dijon mustard, red onion, beets, capers, egg yolk, and French fries",
+				"price": "365"
+			},
+			{
+				"title": "Grilled Pork Tenderloin Medallions",
+				"description": "Green pepper sauce, grilled pineapple, asparagus, sautéed vegetables, and rosemary-marinated oven-baked potato",
+				"price": "296"
+			},
+			{
+				"title": "Lamb Rump Steak",
+				"description": "Oven-grilled mushroom and bell pepper filled with Parmesan and garlic butter. Served with baked potato and asparagus.",
+				"price": "295"
+			},
+			{
+				"title": "Homemade Meatballs",
+				"description": "Cream sauce, lingonberry jam, pickled cucumber, and duchess potatoes",
+				"price": "250"
+			},
+			{
+				"title": "Wagyu Burger",
+				"description": "Crispy lettuce, caramelized onion, and cheddar cheese",
+				"price": "198"
+			},
+			{
+				"title": "Angus Burger",
+				"description": "Jalapeños, cheddar cheese, chili mayo, caramelized onion, bacon, jack pepper cheese, pickled cucumber, served with French fries and onion rings",
+				"price": "198"
+			},
+			{
+				"title": "Halloumi Burger",
+				"description": "Guacamole, caramelized onion, crispy lettuce, tomato, fried onion, garlic mayo, served with French fries and onion rings",
+				"price": "198"
+			},
+			{
+				"title": "Lobster",
+				"description": "Garlic and Parmesan-grilled lobster, served with garlic and chili sautéed scampi, blue mussels, and clams, topped with grilled lemon and dill.",
+				"price": "395"
+			},
+			{
+				"title": "Mussels Emil's Style",
+				"description": "Green mussels, cream, white wine, garlic, chives, aioli, garlic bread, and French fries",
+				"price": "325"
+			},
+			{
+				"title": "Greek Salad",
+				"description": "Served in classic style",
+				"price": "198"
+			}
+		]
+	},
+	"desserts": [
+		{
+			"title": "Desserts",
+			"items": [
+				{
+					"title": "Chocolate Fondant",
+					"description": "House berry compote and a scoop of ice cream",
+					"price": "158"
+				},
+				{
+					"title": "Crème Brûlée",
+					"description": "Classic style",
+					"price": "148"
+				},
+				{
+					"title": "Vanilla Ice Cream",
+					"description": "Served with raspberry coulis and house berries",
+					"price": "144"
+				},
+				{
+					"title": "Panna Cotta",
+					"description": "Served with raspberry coulis and house berries",
+					"price": "144"
+				},
+				{
+					"title": "Raspberry Sorbet",
+					"description": "Served with house berries",
+					"price": "144"
+				}
+			]
+		},
+		{
+			"title": "Coffee Drinks 169:- (5cl)",
+			"items": [
+				{
+					"title": "Irish Coffee",
+					"description": "Jameson, coffee, brown sugar, and cream",
+					"price": false
+				},
+				{
+					"title": "Spanish Coffee",
+					"description": "Licor 43, coffee, and cream",
+					"price": false
+				},
+				{
+					"title": "Coffee D.O.M",
+					"description": "Bénédictine, coffee, and cream",
+					"price": false
+				},
+				{
+					"title": "Coffee Karlsson",
+					"description": "Bailey's, Cointreau, coffee, and cream",
+					"price": false
+				}
+			]
+		},
+		{
+			"title": "Draft Beer",
+			"items": [
+				{
+					"title": "Melleruds",
+					"description": false,
+					"price": ["68", "82"]
+				},
+				{
+					"title": "A Ship Full of IPA",
+					"description": false,
+					"price": ["78", "98"]
+				},
+				{
+					"title": "Krušovice",
+					"description": false,
+					"price": ["78", "98"]
+				},
+				{
+					"title": "Gamma Ray APA",
+					"description": false,
+					"price": ["86", "106"]
+				}
+			],
+			"quantity": ["40cl", "50cl"]
+		},
+		{
+			"title": "Bottled Beer",
+			"items": [
+				{
+					"title": "Heineken",
+					"description": "33cl",
+					"price": "65"
+				},
+				{
+					"title": "Paulaner Weissbier",
+					"description": "50cl",
+					"price": "92"
+				},
+				{
+					"title": "Zlatopramen",
+					"description": "50cl",
+					"price": "92"
+				},
+				{
+					"title": "Strongbow (cider)",
+					"description": "33cl",
+					"price": "68"
+				},
+				{
+					"title": "Daura Damm",
+					"description": "33cl",
+					"price": "68"
+				},
+				{
+					"title": "Ginger Joe",
+					"description": "33cl",
+					"price": "72"
+				}
+			]
+		}
+	]
+}

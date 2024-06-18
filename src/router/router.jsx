@@ -5,6 +5,7 @@ import App from '../App';
 import Home from '../pages/Home/Home';
 import Menu from '../pages/Menu/Menu';
 import Gallery from '../pages/Gallery/Gallery';
+import Event from '../pages/Events/Events';
 
 const Router = createBrowserRouter([
 	{
@@ -23,6 +24,10 @@ const Router = createBrowserRouter([
 			{
 				path: '/restaurant_emils/gallery',
 				element: <Gallery />,
+			},
+			{
+				path: '/restaurant_emils/events',
+				element: <Event />,
 			},
 		],
 	},

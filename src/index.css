@@ -28,8 +28,11 @@ body::-webkit-scrollbar-thumb {
 
 a {
 	all: unset;
+	color: #77a1d7;
+	transition: color 0.5s;
 }
 
 a:hover {
 	cursor: pointer;
+	color: #4d688b;
 }
