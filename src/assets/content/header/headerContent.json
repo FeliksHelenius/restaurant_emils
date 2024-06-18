@@ -2,11 +2,11 @@
 	"header_links": [
 		{
 			"name": "Hem",
-			"path": "/restaurant_emils"
+			"path": "/"
 		},
 		{
 			"name": "Meny",
-			"path": "/restaurant_emils/menu"
+			"path": "/menu"
 		},
 		{
 			"name": "Boka Bord",
@@ -14,11 +14,11 @@
 		},
 		{
 			"name": "Events",
-			"path": "/restaurant_emils/events"
+			"path": "/events"
 		},
 		{
 			"name": "Galleri",
-			"path": "/restaurant_emils/gallery"
+			"path": "/gallery"
 		}
 	]
 }

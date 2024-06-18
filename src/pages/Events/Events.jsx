@@ -109,10 +109,7 @@ export default function Events() {
 				<div className={styles['card-mobile']}>
 					<CarouselContainer cards={menuHighlights} />
 				</div>
-				<OutlinedTextButton
-					text={'explore our menu'}
-					href={'/restaurant_emils/menu'}
-				/>
+				<OutlinedTextButton text={'explore our menu'} href={'/menu'} />
 			</div>
 
 			<div className={styles['default-section']}>

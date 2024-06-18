@@ -230,9 +230,7 @@ let Home = () => {
 												<button
 													className={buttonStyles['outlined-text']}
 													style={{ color: '#fff' }}>
-													<Link
-														to="/restaurant_emils/menu"
-														style={{ color: '#fff' }}>
+													<Link to="/menu" style={{ color: '#fff' }}>
 														see our menu
 													</Link>
 												</button>

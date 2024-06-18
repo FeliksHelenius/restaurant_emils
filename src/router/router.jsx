@@ -9,24 +9,24 @@ import Event from '../pages/Events/Events';
 
 const Router = createBrowserRouter([
 	{
-		path: '/restaurant_emils',
+		path: '/',
 		element: <App />,
 		ErrorBoundary: ErrorBoundary,
 		children: [
 			{
-				path: '/restaurant_emils',
+				path: '/',
 				element: <Home />,
 			},
 			{
-				path: '/restaurant_emils/menu',
+				path: '/menu',
 				element: <Menu />,
 			},
 			{
-				path: '/restaurant_emils/gallery',
+				path: '/gallery',
 				element: <Gallery />,
 			},
 			{
-				path: '/restaurant_emils/events',
+				path: '/events',
 				element: <Event />,
 			},
 		],
