@@ -13,9 +13,14 @@
 				"price": "148"
 			},
 			{
+				"title": "Halv Hummer",
+				"description": "Vitlök och parmesangratinerad hummer, serveras med vitlök och chilifrästa scampi, blåmusslor och vongole, toppat med grillad citron och dill.",
+				"price": "195"
+			},
+			{
 				"title": "Scampi (stark)",
 				"description": "Vitlök- och sambalfrästa scampi och havsmusslor, serveras med aioli och bröd",
-				"price": "159"
+				"price": "169"
 			},
 			{
 				"title": "Tonfisktartar",
@@ -48,18 +53,78 @@
 		"title": "Varmrätter",
 		"items": [
 			{
-				"title": "Grillad Välmarmorerad Entrecôte (Uruguay)",
-				"description": "Rödvinssås, bearnaisesås, sparris, sauterade grönsaker och pommes frites",
-				"price": "365"
+				"title": "Lammrostbiff",
+				"description": "Serveras med bakad potatis och rosmarinsås",
+				"price": "320"
 			},
 			{
-				"title": "Tomahawk",
-				"description": "Description: Förtidsmarinerad tomahawk på kockens vis, serverad med ugnsgratinerad champinjon och paprika fylld med parmesan och vitlökssmör, sparris, samt potatisklyftor. Till detta serveras cognac-pepparsås och rödvinssås.",
-				"price": "595"
+				"title": "Hemlagade Köttbullar",
+				"description": "Gräddsås, rårörda lingon och duchesse mos",
+				"price": "295"
+			},
+			{
+				"title": "Vego Burgare",
+				"description": "Kockens vis.",
+				"price": "285"
+			},
+			{
+				"title": "Moules Frites",
+				"description": "Grönmusslor, grädde, vitt vin, vitlök, gräslök, aioli, vitlöksbröd och pommes frites",
+				"price": "325"
+			},
+			{
+				"title": "Grillade Fläskfilé",
+				"description": "Grönpepparsås, grillad ananas och bakad potatis",
+				"price": "296"
+			},
+			{
+				"title": "Angus Burgare",
+				"desciption": "jalapeños, chilimajo, karamelliserad lök, bacon, jackpepparost, serveras med pommes och lökringar",
+				"price": "285"
+			},
+			{
+				"title": "Halloumi Burgare",
+				"description": "Guacamole, karamelliserad lök, krispsallad, rostad lök, aioli, serveras med pommes och lökringar",
+				"price": "265"
+			},
+			{
+				"title": "Grillad Tonfisk",
+				"description": "Blandsallad, avokado, körsbärstomater, bränd majs, citron samt ponzu",
+				"price": "355"
+			},
+			{
+				"title": "Ceasar Sallad",
+				"description": "Välj mellan grillad majskyckling/scampi eller grillad halloumi, serveras på klassiskt vis",
+				"price": "265"
+			}
+		]
+	},
+	"fastMenu": {
+		"title": "Fast Meny",
+		"items": [
+			{
+				"title": "Grillad Entrecôte",
+				"description": "250g Uruguay, rödvinssås, bearnaisesås och pommes",
+				"price": "345"
+			},
+			{
+				"title": "Hummer",
+				"description": "Vitlök och parmesangratinerad hummer, serveras med vitlök och chilifrästa scampi, blåmusslor och vongole, toppat med grillad citron och dill.",
+				"price": "420"
 			},
 			{
 				"title": "Cognac Pepparstek",
-				"description": "Oxfilé, cognac/pepparsås, sparris, sauterade gränsaker och bakad potatis",
+				"description": "Oxfilé, cognac/pepparsås och bakad potatis",
+				"price": "395"
+			},
+			{
+				"title": "Scampi (stark)",
+				"description": "Vitlök- och sambalfrästa scampi och havsmusslor, serveras med aioli och vitlöksbröd",
+				"price": "325"
+			},
+			{
+				"title": "Tomahawk (2 personer)",
+				"description": "Förtidsmarinerad tomahawk på kockens vis. Till detta serveras cognac-pepparsås, rödvinssås och bakad potatis",
 				"price": "415"
 			},
 			{
@@ -68,54 +133,54 @@
 				"price": "365"
 			},
 			{
-				"title": "Lamm Shank",
-				"description": "Långtillagad lammshanks med lök, helpeppar, rosmarin, timjan, smör, vitlök och chili. Serveras med rosmarinssås, tzatziki och bakad potatis. OBS: 30 minuters väntetid.",
-				"price": "295"
+				"title": "Grillbricka",
+				"description": "Oxfilé, entrecôte, lammrostbiff, fläskfilé, serveras med grillad halloumi, husets sallad, samt tre olika såser: bearnaisesås, rödvinssås, cognac pepparsås och pommes",
+				"price": "415"
+			}
+		]
+	},
+	"barMenu": {
+		"title": "Barmeny / Snacks",
+		"items": [
+			{
+				"title": "Mini Burgare",
+				"description": "Angus, högrev, cheddar, karamelliserad lök, hamburgerdresssing, ketchup och lökringar",
+				"price": "95"
 			},
 			{
-				"title": "Grillade Fläskfilé Medaljonger",
-				"description": "Grönpepparsås, grillad ananas, sparris, sauterade grönsaker och rosmarinmarinerad ugnsbakad potatis",
-				"price": "296"
+				"title": "Friterade Kalamaris",
+				"description": "Chili majonnäs",
+				"price": "125"
 			},
 			{
-				"title": "Lammrostbiff",
-				"description": "Ugnsgratinerad champinjon och paprika fylld med parmesan och vitlökssmör. Serveras med bakad potatis och sparris.",
-				"price": "295"
+				"title": "Friterade Lökringar",
+				"description": "Chili majonnäs",
+				"price": "85"
 			},
 			{
-				"title": "Hemlagade Köttbullar",
-				"description": "Gräddsås, rårörda lingon, inlagd gurka och duchesse mos",
-				"price": "192"
+				"title": "Mini Halloumi Burgare",
+				"description": "Halloumi, guacamole, karamelliserad lök, hamburgerdressing och lökringar",
+				"price": "95"
 			},
 			{
-				"title": "Wagyu Burgare",
-				"description": "Krispsallad, karamelliserad lök och cheddarost",
-				"price": "198"
+				"title": "Dirty Fries",
+				"description": "Pommes frites, cheddar, bacon, jalapeños, rödlök, chili majonnäs och rostad lök",
+				"price": "105"
 			},
 			{
-				"title": "Angus Burgare",
-				"desciption": "jalapeños, cheddarost, chilimajo, karamelliserad lök, bacon, jackpepparost, picklad gurka, serveras med pommes och lökringar",
-				"price": "198"
+				"title": "Nachos",
+				"description": "Cheddar, jalapeños, rödlök, chili majonnäs, guacamole och rostad lök",
+				"price": "115"
 			},
 			{
-				"title": "Halloumi Burgare",
-				"description": "Guacamole, karamelliserad lök, krispsallad, tomat, rostad lök, aioli, serveras med pommes och lökringar",
-				"price": "198"
+				"title": "Marinerade Gröna Oliver",
+				"description": "Kockens vis.",
+				"price": "65"
 			},
 			{
-				"title": "Hummer",
-				"description": "Vitlök och parmesangratinerad hummer, serveras med vitlök och chilifrästa scampi, blåmusslor och vongole, toppat med grillad citron och dill.",
-				"price": "395"
-			},
-			{
-				"title": "Moules på Emil's vis",
-				"description": "Grönmusslor, grädde, vitt vin, vitlök, gräslök, aioli, vitlöksbröd och pommes frites",
-				"price": "325"
-			},
-			{
-				"title": "Grekisk Sallad",
-				"description": "Serveras på klassiskt vis",
-				"price": "198"
+				"title": "Pommes Frites",
+				"description": "Bearnaisesås",
+				"price": "85"
 			}
 		]
 	},

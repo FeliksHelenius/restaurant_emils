@@ -83,12 +83,13 @@
 	grid-template-rows: auto;
 	column-gap: 1rem;
 	row-gap: 1rem;
+	min-height: 50svh;
 }
 
-.offer-card-wrapper div:nth-child(1) {
+/* .offer-card-wrapper div:nth-child(1) {
 	grid-column: 1 / span 2;
 	width: 100%;
-}
+} */
 
 .active {
 	position: absolute !important;

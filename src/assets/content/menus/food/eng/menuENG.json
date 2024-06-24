@@ -13,9 +13,14 @@
 				"price": "148"
 			},
 			{
+				"title": "Half Lobster",
+				"description": "Garlic and Parmesan gratinated lobster, served with garlic and chili-fried scampi, blue mussels, and vongole, topped with grilled lemon and dill",
+				"price": "195"
+			},
+			{
 				"title": "Scampi (spicy)",
-				"description": "Garlic and sambal sautéed scampi and sea mussels, served with aioli and bread",
-				"price": "159"
+				"description": "Garlic and sambal-fried scampi and sea mussels, served with aioli and bread",
+				"price": "169"
 			},
 			{
 				"title": "Tuna Tartare",
@@ -24,7 +29,7 @@
 			},
 			{
 				"title": "Steak Tartare",
-				"description": "House-ground beef tenderloin, Dijon mustard, red onion, beets, capers, egg yolk",
+				"description": "Freshly ground tenderloin, Dijon mustard, red onion, beets, capers, egg yolk",
 				"price": "159"
 			},
 			{
@@ -48,69 +53,134 @@
 		"title": "Main Courses",
 		"items": [
 			{
-				"title": "Grilled Well-Marbled Ribeye (Uruguay)",
-				"description": "Red wine sauce, Béarnaise sauce, asparagus, sautéed vegetables, and French fries",
-				"price": "365"
-			},
-			{
-				"title": "Tomahawk",
-				"description": "Pre-marinated Tomahawk steak cooked chef's style, served with oven-grilled mushroom and bell pepper filled with Parmesan and garlic butter, asparagus, and potato wedges. Accompanied by Cognac pepper sauce and red wine sauce.",
-				"price": "595"
-			},
-			{
-				"title": "Cognac Pepper Steak",
-				"description": "Beef tenderloin, Cognac/pepper sauce, asparagus, sautéed vegetables, and baked potato",
-				"price": "415"
-			},
-			{
-				"title": "Steak Tartare",
-				"description": "House-ground beef tenderloin, Dijon mustard, red onion, beets, capers, egg yolk, and French fries",
-				"price": "365"
-			},
-			{
-				"title": "Grilled Pork Tenderloin Medallions",
-				"description": "Green pepper sauce, grilled pineapple, asparagus, sautéed vegetables, and rosemary-marinated oven-baked potato",
-				"price": "296"
-			},
-			{
-				"title": "Lamb Rump Steak",
-				"description": "Oven-grilled mushroom and bell pepper filled with Parmesan and garlic butter. Served with baked potato and asparagus.",
-				"price": "295"
+				"title": "Lamb Rump",
+				"description": "Served with baked potato and rosemary sauce",
+				"price": "320"
 			},
 			{
 				"title": "Homemade Meatballs",
-				"description": "Cream sauce, lingonberry jam, pickled cucumber, and duchess potatoes",
-				"price": "250"
+				"description": "Cream sauce, lingonberries, and Duchess mashed potatoes",
+				"price": "295"
 			},
 			{
-				"title": "Wagyu Burger",
-				"description": "Crispy lettuce, caramelized onion, and cheddar cheese",
-				"price": "198"
+				"title": "Veggie Burger",
+				"description": "Chef's choice",
+				"price": "285"
 			},
 			{
-				"title": "Angus Burger",
-				"description": "Jalapeños, cheddar cheese, chili mayo, caramelized onion, bacon, jack pepper cheese, pickled cucumber, served with French fries and onion rings",
-				"price": "198"
-			},
-			{
-				"title": "Halloumi Burger",
-				"description": "Guacamole, caramelized onion, crispy lettuce, tomato, fried onion, garlic mayo, served with French fries and onion rings",
-				"price": "198"
-			},
-			{
-				"title": "Lobster",
-				"description": "Garlic and Parmesan-grilled lobster, served with garlic and chili sautéed scampi, blue mussels, and clams, topped with grilled lemon and dill.",
-				"price": "395"
-			},
-			{
-				"title": "Mussels Emil's Style",
+				"title": "Moules Frites",
 				"description": "Green mussels, cream, white wine, garlic, chives, aioli, garlic bread, and French fries",
 				"price": "325"
 			},
 			{
-				"title": "Greek Salad",
-				"description": "Served in classic style",
-				"price": "198"
+				"title": "Grilled Pork Tenderloin",
+				"description": "Green peppercorn sauce, grilled pineapple, and baked potato",
+				"price": "296"
+			},
+			{
+				"title": "Angus Burger",
+				"desciption": "Jalapeños, chili mayo, caramelized onion, bacon, pepper jack cheese, served with fries and onion rings",
+				"price": "285"
+			},
+			{
+				"title": "Halloumi Burger",
+				"description": "Guacamole, caramelized onion, crispy lettuce, roasted onion, aioli, served with fries and onion rings",
+				"price": "265"
+			},
+			{
+				"title": "Grilled Tuna",
+				"description": "Mixed salad, avocado, cherry tomatoes, charred corn, lemon, and ponzu",
+				"price": "355"
+			},
+			{
+				"title": "Caesar Salad",
+				"description": "Choose between grilled corn chicken/scampi or grilled halloumi, served classic style",
+				"price": "265"
+			}
+		]
+	},
+	"fastMenu": {
+		"title": "Fast Menu",
+		"items": [
+			{
+				"title": "Grilled Entrecôte",
+				"description": "250g Uruguay, red wine sauce, Béarnaise sauce, and fries",
+				"price": "345"
+			},
+			{
+				"title": "Lobster",
+				"description": "Garlic and Parmesan gratinated lobster, served with garlic and chili-fried scampi, blue mussels, and vongole, topped with grilled lemon and dill",
+				"price": "420"
+			},
+			{
+				"title": "Cognac Pepper Steak",
+				"description": "Tenderloin, cognac/pepper sauce, and baked potato",
+				"price": "395"
+			},
+			{
+				"title": "Scampi (spicy)",
+				"description": "Garlic and sambal-fried scampi and sea mussels, served with aioli and garlic bread",
+				"price": "325"
+			},
+			{
+				"title": "Tomahawk (for 2 people)",
+				"description": "Pre-marinated tomahawk as per the chef's recipe. Served with cognac-pepper sauce, red wine sauce, and baked potato",
+				"price": "415"
+			},
+			{
+				"title": "Steak Tartare",
+				"description": "Freshly ground tenderloin, Dijon mustard, red onion, beets, capers, egg yolk, and French fries",
+				"price": "365"
+			},
+			{
+				"title": "Grill Platter",
+				"description": "Tenderloin, entrecôte, lamb rump, pork tenderloin, served with grilled halloumi, house salad, and three different sauces: Béarnaise, red wine sauce, cognac pepper sauce, and fries",
+				"price": "415"
+			}
+		]
+	},
+	"barMenu": {
+		"title": "Bar Menu / Snacks",
+		"items": [
+			{
+				"title": "Mini Burger",
+				"description": "Angus, chuck, cheddar, caramelized onion, burger dressing, ketchup, and onion rings",
+				"price": "95"
+			},
+			{
+				"title": "Fried Calamari",
+				"description": "Chili mayonnaise",
+				"price": "125"
+			},
+			{
+				"title": "Fried Onion Rings",
+				"description": "Chili mayonnaise",
+				"price": "85"
+			},
+			{
+				"title": "Mini Halloumi Burger",
+				"description": "Halloumi, guacamole, caramelized onion, burger dressing, and onion rings",
+				"price": "95"
+			},
+			{
+				"title": "Dirty Fries",
+				"description": "French fries, cheddar, bacon, jalapeños, red onion, chili mayonnaise, and roasted onion",
+				"price": "105"
+			},
+			{
+				"title": "Nachos",
+				"description": "Cheddar, jalapeños, red onion, chili mayonnaise, guacamole, and roasted onion",
+				"price": "115"
+			},
+			{
+				"title": "Marinated Green Olives",
+				"description": "Chef's recipe",
+				"price": "65"
+			},
+			{
+				"title": "French Fries",
+				"description": "Béarnaise sauce",
+				"price": "85"
 			}
 		]
 	},
@@ -171,7 +241,7 @@
 			]
 		},
 		{
-			"title": "Draft Beer",
+			"title": "Draft Beer (40cl | 50cl)",
 			"items": [
 				{
 					"title": "Melleruds",

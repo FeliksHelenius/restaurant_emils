@@ -103,10 +103,10 @@
 
 @media (max-width: 900px) {
 	.header-1 {
-		font-size: 20px;
+		font-size: 24px;
 	}
 	.header-2 {
-		font-size: 16px;
+		font-size: 20px;
 	}
 	.subheader-1 {
 		font-size: 16px;
@@ -115,6 +115,15 @@
 		font-size: 16px;
 	}
 	.paragraph-special {
+		font-size: 12px;
+	}
+	.menu-title {
+		font-size: 16px;
+	}
+	.menu-item {
+		font-size: 14px;
+	}
+	.menu-item-description {
 		font-size: 12px;
 	}
 }

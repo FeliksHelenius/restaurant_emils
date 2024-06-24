@@ -3,8 +3,7 @@
 	"Food Menu": {
 		"2-mini-burgare": {
 			"title": "2 Mini Burgare",
-			"ingredients": "Angus, Högrev, Cheddar, karameliserad lök, picklad gurka, ketchup",
-			"served-with": "Potatisklyftor och lökringar",
+			"ingredients": "Angus, Högrev, Cheddar, karameliserad lök, picklad gurka, ketchup, serveras med lökringar",
 			"price": "145 kr"
 		},
 		"charkbricka": {
@@ -12,10 +11,15 @@
 			"ingredients": "Utvalda delikatesser från Ost & Charkdisken med tillbehör (2 pers)",
 			"price": "295 kr"
 		},
-		"friterad-blackfisk-lokringar": {
-			"title": "Friterad Bläckfisk & Lökringar",
+		"friterad-blackfisk": {
+			"title": "Friterad Bläckfisk",
 			"ingredients": "Chili majonnäs",
-			"price": "125 kr"
+			"price": "85"
+		},
+		"friterade-lökringar": {
+			"title": "Friterade Lökringar",
+			"ingredients": "Chili majonnäs",
+			"price": "85"
 		},
 		"dirty-fries": {
 			"title": "Dirty Fries",
@@ -31,6 +35,11 @@
 			"title": "Marinerade Gröna Oliver",
 			"ingredients": "Kockens vis",
 			"price": "75 kr"
+		},
+		"halloumi-burgare": {
+			"title": "Halloumi Burgare",
+			"ingredients": "Guacamole, karamelliserad lök, krispsallad, aioli och lökringar",
+			"price": "265"
 		}
 	},
 	"Drink Menu": {

@@ -6,10 +6,10 @@ import burger from '../../images/card_images/burger.jpg';
 
 const EventOffers = {
 	'offer-1': {
-		main: 'Combine Your Own Menu',
-		drink: 'A glass of wine of your choice',
+		main: '3-Course Menu',
+		drink: false,
 		'amount-of-people': false,
-		description: '1 starter, 1 main course',
+		description: 'Choice of appetizer, main course & dessert',
 		price: '545:- / person',
 		'image-path': ThreeCourseOffer,
 	},
@@ -18,34 +18,16 @@ const EventOffers = {
 		drink: false,
 		'amount-of-people': false,
 		description:
-			'1 aperitif, 2 glasses of wine (white, red, rosé, cava), 1 optional cocktail',
+			'choice of aperitif, 2 glasses of wine or cava, 1 choice of drink',
 		price: '545:- / person',
 		'image-path': drinkOffer,
 	},
 	'offer-3': {
-		main: 'Grill Tray',
-		drink: ['vin', 'cava'],
+		main: 'Grill Tray / Tomahawk',
+		drink: false,
 		'amount-of-people': '2 people',
 		description: 'Minimum of 2 people',
-		price: '545:- / person',
-		'image-path': companyOffer,
-	},
-	'offer-4': {
-		main: 'Tomahawk',
-		drink: 'A glass of wine of your choice',
-		'amount-of-people': '2 people',
-		description:
-			"Pre-marinated Tomahawk steak (1100g) cooked chef's style, served with oven-grilled mushroom and bell pepper filled with Parmesan and garlic butter, asparagus, and potato wedges. Accompanied by Cognac pepper sauce and red wine sauce. ",
-		price: '555:- / person',
-		'image-path': tomahawk,
-	},
-	'offer-5': {
-		main: 'Lobster',
-		drink: 'A glass of champagne',
-		'amount-of-people': '1 person',
-		description:
-			'Garlic and Parmesan-grilled lobster, served with garlic and chili sautéed scampi, blue mussels, and clams, topped with grilled lemon and dill.',
-		price: '575:- / person',
+		price: '415:- / person',
 		'image-path': companyOffer,
 	},
 };
