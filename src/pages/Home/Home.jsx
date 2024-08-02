@@ -245,7 +245,10 @@ let Home = () => {
 							);
 						})}
 					</div>
-					<BookButton text={'boka nu'} href={'/boka-nu'} />
+					<BookButton
+						text={'boka nu'}
+						href={'https://book.easytablebooking.com/book/?id=65ff0&lang=auto'}
+					/>
 				</div>
 			</div>
 
